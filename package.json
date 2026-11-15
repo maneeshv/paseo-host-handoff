@@ -2,6 +2,11 @@
   "name": "paseo-host-handoff",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maneeshv/paseo-host-handoff.git"
+  },
   "type": "module",
   "scripts": {
     "typecheck": "tsc --noEmit",

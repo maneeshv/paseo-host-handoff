@@ -87,3 +87,7 @@ Agent tools `handoff_return_discover`, `handoff_return_review`, `handoff_return_
 The [synthetic stock-runtime proof](proof/README.md) supplies the dependency hashes checked during every build. The automated suite covers snapshots, path/secret guards, context/lifecycle drift, queues, recovery and return divergence. Real SSH/native UI send and return were also accepted in the original installation; private captures, screenshots, host-specific reports and receipts are deliberately not published. This is not proof for every provider, version or concurrent workload.
 
 To update an installed source after a reviewed code change, reload only `paseo-host-handoff`; do not restart Paseo. To disable it, use `paseo plugin disable paseo-host-handoff`. Removing its registration does not remove created agents/checkouts or private state. Review exact paths before any cleanup.
+
+## License
+
+Original plugin code is [MIT licensed](LICENSE). Dependencies retain their own licenses; see [third-party notices](THIRD_PARTY_NOTICES.md), including Paseo's Apache-2.0 attribution. The package stays marked private to prevent accidental npm publication; this does not restrict use of the public GitHub source under its license.

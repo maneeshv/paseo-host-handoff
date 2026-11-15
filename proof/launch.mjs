@@ -1,0 +1,12 @@
+import { mkdtemp, mkdir } from 'node:fs/promises';
+import { spawn } from 'node:child_process';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+const version=process.argv[2];
+assert(['0.15.2','0.15.4'].includes(version));
+const destinationVersion=process.argv[3]??version;
+assert([version,'0.15.0'].includes(destinationVersion));
+const root=await mkdtemp('/private/tmp/handoff-stock-'+version+'-');
+await mkdir(path.join(root,'home'));await mkdir(path.join(root,'tmp'));
+const child=spawn(process.execPath,['proof/run.mjs',version,destinationVersion],{stdio:'inherit',env:{PATH:path.dirname(process.execPath)+':/usr/bin:/bin:/usr/sbin:/sbin',HOME:path.join(root,'home'),TMPDIR:path.join(root,'tmp'),PASEO_HOME:path.join(root,'home','.paseo'),HANDOFF_PROOF_ROOT:root,LANG:'en_US.UTF-8'}});
+child.on('exit',(code)=>{process.exitCode=code??1;});

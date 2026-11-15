@@ -1,0 +1,12 @@
+{
+  "name": "handoff-destination-proof-0150",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@getpaseo/cli": "0.15.0",
+    "@getpaseo/client": "0.15.0",
+    "@getpaseo/plugin": "0.15.0",
+    "@getpaseo/protocol": "0.15.0",
+    "@getpaseo/server": "0.15.0"
+  }
+}

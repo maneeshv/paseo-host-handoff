@@ -1,0 +1,12 @@
+{
+  "name": "handoff-stock-proof-0152",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@getpaseo/cli": "0.15.2",
+    "@getpaseo/client": "0.15.2",
+    "@getpaseo/plugin": "0.15.2",
+    "@getpaseo/protocol": "0.15.2",
+    "@getpaseo/server": "0.15.2"
+  }
+}

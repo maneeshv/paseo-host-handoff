@@ -1,0 +1,30 @@
+{
+  "name": "paseo-host-handoff",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "npm run build && node --import tsx --test tests/*.test.ts",
+    "build": "node scripts/verify-curators.mjs && node --import tsx scripts/build.ts",
+    "check": "npm run build && npm run typecheck && node --import tsx --test tests/*.test.ts"
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "0.15.2",
+    "@getpaseo/server": "0.15.2",
+    "@tanstack/react-query": "^5.90.11",
+    "@types/node": "^26.6.6",
+    "@types/react": "~19.2.0",
+    "@types/ws": "^8.18.2",
+    "esbuild": "^0.28.2",
+    "oxfmt": "^0.78.0",
+    "oxlint": "^1.61.0",
+    "paseo-server-0154": "npm:@getpaseo/server@0.15.4",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.6",
+    "zod": "^4.4.3"
+  }
+}

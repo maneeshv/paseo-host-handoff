@@ -1,0 +1,269 @@
+{
+  "version": "0.15.4",
+  "runRoot": "/private/tmp/handoff-stock-0.15.4-LHqsXU",
+  "bundleBytes": 43556,
+  "bundleSha256": "a3cfbf9b9978f0a06423a1a9d66461e672b623b4930faf58218f255bf7121200",
+  "cases": [
+    {
+      "name": "loaded/empty",
+      "itemCount": 0,
+      "characters": 213,
+      "sha256": "c40103c1951e1ebe5886814903eeb62ee084f98e2d525b6626758bdbe6fcad44"
+    },
+    {
+      "name": "loaded/merged",
+      "itemCount": 3,
+      "characters": 263,
+      "sha256": "3f527e98c605f73214ccdce6a150a1b81c1612ba30527a557f8a859c61ff0f50"
+    },
+    {
+      "name": "loaded/exclusions",
+      "itemCount": 4,
+      "characters": 261,
+      "sha256": "c50063bd146bf8d2ac6d34f5a29a257acd14fb0ce46848c8ae3a5ae4d62abf4c"
+    },
+    {
+      "name": "loaded/counted",
+      "itemCount": 5,
+      "characters": 216,
+      "sha256": "13837a1ca0a3ad890ec1a1554f84497b8b99e9654abb9dbfe5afe12553de78f6"
+    },
+    {
+      "name": "loaded/truncation",
+      "itemCount": 16,
+      "characters": 99455,
+      "sha256": "625a4d78dbd231a14f1c751631e89e8889b331ab58f302f2122a45a05c219a33"
+    },
+    {
+      "name": "loaded/oversized",
+      "itemCount": 2,
+      "characters": 100000,
+      "sha256": "9d182875ac449e97d6095907eff824579ee86cb73b5ffd1e964d777170e0c838"
+    },
+    {
+      "name": "saved-inactive/empty",
+      "itemCount": 0,
+      "characters": 222,
+      "sha256": "405a3eb61bf99aa03fea682ee06b882042509268600de5cd157e7cb4307a2681"
+    },
+    {
+      "name": "explicit-reopen/empty",
+      "itemCount": 0,
+      "characters": 222,
+      "sha256": "405a3eb61bf99aa03fea682ee06b882042509268600de5cd157e7cb4307a2681"
+    },
+    {
+      "name": "saved-inactive/merged",
+      "itemCount": 3,
+      "characters": 273,
+      "sha256": "1dc39a543d40cf06a5c212a2992d5aa16743c2368e77d99fe6e464d84016dcc3"
+    },
+    {
+      "name": "explicit-reopen/merged",
+      "itemCount": 3,
+      "characters": 273,
+      "sha256": "1dc39a543d40cf06a5c212a2992d5aa16743c2368e77d99fe6e464d84016dcc3"
+    },
+    {
+      "name": "saved-inactive/exclusions",
+      "itemCount": 4,
+      "characters": 275,
+      "sha256": "ef8ec7e58ce4882401671cb273c0a83d15631269ea25db42659b42ac8d9f4f1f"
+    },
+    {
+      "name": "explicit-reopen/exclusions",
+      "itemCount": 4,
+      "characters": 275,
+      "sha256": "ef8ec7e58ce4882401671cb273c0a83d15631269ea25db42659b42ac8d9f4f1f"
+    },
+    {
+      "name": "saved-inactive/counted",
+      "itemCount": 5,
+      "characters": 227,
+      "sha256": "e48992e6b337bc8409034e50ec2bc497786d0e4564c51ad0fdc3405273315956"
+    },
+    {
+      "name": "explicit-reopen/counted",
+      "itemCount": 5,
+      "characters": 227,
+      "sha256": "e48992e6b337bc8409034e50ec2bc497786d0e4564c51ad0fdc3405273315956"
+    },
+    {
+      "name": "saved-inactive/truncation",
+      "itemCount": 16,
+      "characters": 99469,
+      "sha256": "b11fac166eb5bfb06850f66b1765604db27177303ce6e4f6805d869be02184a1"
+    },
+    {
+      "name": "explicit-reopen/truncation",
+      "itemCount": 16,
+      "characters": 99469,
+      "sha256": "b11fac166eb5bfb06850f66b1765604db27177303ce6e4f6805d869be02184a1"
+    },
+    {
+      "name": "saved-inactive/oversized",
+      "itemCount": 2,
+      "characters": 100000,
+      "sha256": "33fd12a2be4b541483e4765c979e9a52629d56407373364b6f5ba507f4581198"
+    },
+    {
+      "name": "explicit-reopen/oversized",
+      "itemCount": 2,
+      "characters": 100000,
+      "sha256": "33fd12a2be4b541483e4765c979e9a52629d56407373364b6f5ba507f4581198"
+    },
+    {
+      "name": "guard/reset",
+      "rejected": true,
+      "destinations": 0
+    },
+    {
+      "name": "guard/staleCursor",
+      "rejected": true,
+      "destinations": 0
+    },
+    {
+      "name": "guard/gap",
+      "rejected": true,
+      "destinations": 0
+    },
+    {
+      "name": "guard/hasOlder",
+      "rejected": true,
+      "destinations": 0
+    },
+    {
+      "name": "guard/hasNewer",
+      "rejected": true,
+      "destinations": 0
+    },
+    {
+      "name": "guard/error",
+      "rejected": true,
+      "destinations": 0
+    },
+    {
+      "name": "guard/oversized-read",
+      "rejected": true,
+      "destinations": 0
+    },
+    {
+      "name": "guard/id",
+      "rejected": true,
+      "destinations": 0
+    },
+    {
+      "name": "guard/cwd",
+      "rejected": true,
+      "destinations": 0
+    },
+    {
+      "name": "guard/status",
+      "rejected": true,
+      "destinations": 0
+    },
+    {
+      "name": "guard/updatedAt",
+      "rejected": true,
+      "destinations": 0
+    },
+    {
+      "name": "guard/epoch",
+      "rejected": true,
+      "destinations": 0
+    },
+    {
+      "name": "guard/end",
+      "rejected": true,
+      "destinations": 0
+    },
+    {
+      "name": "guard/real-synthetic-inflight",
+      "rejected": true,
+      "destinations": 0
+    },
+    {
+      "name": "routed-create/lost-reply-reconcile",
+      "destinationVersion": "0.15.4",
+      "agents": 1,
+      "providerTurns": 1,
+      "contextKind": "chat_history",
+      "contextUnchanged": true,
+      "contextBeforePrompt": true
+    }
+  ],
+  "failures": [],
+  "closure": [
+    {
+      "file": "proof/0.15.4/node_modules/@getpaseo/protocol/dist/tool-name-normalization.js",
+      "sha256": "7e2123e11ee9ddb683c3008ea1a9ee2794a120124a42f72537d552084c29b921"
+    },
+    {
+      "file": "proof/0.15.4/node_modules/@getpaseo/protocol/dist/paseo-tool-presentation/catalog.js",
+      "sha256": "431717f4fb89b7882236e908d5d1a34867a215739b21cbe9481271a30bc25ff3"
+    },
+    {
+      "file": "proof/0.15.4/node_modules/@getpaseo/protocol/dist/paseo-tool-presentation/summary-text.js",
+      "sha256": "dc313f6bb59a47727d62c283186b02ad3ae4debf8d673417d9d466caeb0526f3"
+    },
+    {
+      "file": "proof/0.15.4/node_modules/@getpaseo/protocol/dist/paseo-tool-presentation/agent-message.js",
+      "sha256": "89a151528deb10c72b61a1672ca9112783b675308e9e9c0c28e73687db177d8d"
+    },
+    {
+      "file": "proof/0.15.4/node_modules/@getpaseo/protocol/dist/paseo-tool-presentation/detail-sections.js",
+      "sha256": "b370e4b6a07e08d7b849f47acaa41fbd705b55a30df7771b6f7628c321508a8f"
+    },
+    {
+      "file": "proof/0.15.4/node_modules/@getpaseo/protocol/dist/paseo-tool-presentation/index.js",
+      "sha256": "135b23089a9e3f9483d529ef1e272f35947f7686cc895110dc3ba33072d616bb"
+    },
+    {
+      "file": "proof/0.15.4/node_modules/@getpaseo/protocol/dist/path-utils.js",
+      "sha256": "18bd69e1a13efbeec59e3cf8f1e4babf4aaccb278012ea14a2f52c364253fbf2"
+    },
+    {
+      "file": "proof/0.15.4/node_modules/@getpaseo/protocol/dist/tool-call-display.js",
+      "sha256": "56536d6448474fbe455258cbb099a9a047b41b6c160d3b4d8dc23dd68564ffd2"
+    },
+    {
+      "file": "proof/0.15.4/node_modules/@getpaseo/protocol/dist/timeline-turn.js",
+      "sha256": "5af47c033ae29b4738ff7b2643d0829d1cc41a75e21c9c74f690285c580cc957"
+    },
+    {
+      "file": "proof/0.15.4/node_modules/@getpaseo/protocol/dist/timeline-identity.js",
+      "sha256": "01b61b4d65858030fbac3b43e547d7e7f4a1b9425e7a1b82d0a356f4235ac8c2"
+    },
+    {
+      "file": "proof/0.15.4/node_modules/@getpaseo/server/dist/server/server/agent/timeline-projection.js",
+      "sha256": "e60a059b27ba2e7f7cbe17b73404dc3a22d5a703886d433c7682c547bb47e49b"
+    },
+    {
+      "file": "proof/0.15.4/node_modules/@getpaseo/server/dist/server/server/agent/activity-curator.js",
+      "sha256": "4b5d4087d59eb73aa2d01d938fecdbd6ab9da32f2b9d23659be2504b2de65a75"
+    },
+    {
+      "file": "server/source-state.ts",
+      "sha256": "a065d00d74412f82a1209b1d28371d5066cbb3cee6598d567ea75cf50e087b34"
+    },
+    {
+      "file": "server/context-read.ts",
+      "sha256": "19535dc4c984842a2d45be39229412882a30b5ac5c7df892e15b03da0870542a"
+    },
+    {
+      "file": "proof/plugin.ts",
+      "sha256": "5cc5ca32419b0322dc00825f451e3a761e64c8e385f39f6680576f75053f7d3a"
+    }
+  ],
+  "lockSha256": "cf1d6491463408bcd94f951d650c1db65137e339df6dc00a176493e9804ede0a",
+  "versionSource": {
+    "kind": "public-cli-live-status",
+    "version": "0.15.4",
+    "workerPidPresent": true,
+    "identityMatches": true
+  },
+  "destinationVersion": "0.15.4",
+  "destinationLockSha256": "cf1d6491463408bcd94f951d650c1db65137e339df6dc00a176493e9804ede0a",
+  "nativeVersion": "0.15.4",
+  "partial": false
+}

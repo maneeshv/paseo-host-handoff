@@ -1,0 +1,63 @@
+{
+  "version": "0.15.2",
+  "root": "/private/tmp/handoff-collector-w9SZQM",
+  "before": {
+    "status": "idle",
+    "updatedAt": "2026-11-15T10:50:03.472Z",
+    "lastUserMessageAt": null,
+    "persistence": {
+      "provider": "codex",
+      "sessionId": "fbc17c31-58c8-48bb-91e5-6681ad3d29dc",
+      "metadata": {
+        "conversationId": "fbc17c31-58c8-48bb-91e5-6681ad3d29dc",
+        "cwd": "/private/tmp/handoff-collector-w9SZQM/workspace"
+      }
+    }
+  },
+  "closed": {
+    "status": "closed",
+    "updatedAt": "2026-11-15T10:50:03.472Z",
+    "lastUserMessageAt": null,
+    "persistence": {
+      "provider": "codex",
+      "sessionId": "fbc17c31-58c8-48bb-91e5-6681ad3d29dc",
+      "metadata": {
+        "conversationId": "fbc17c31-58c8-48bb-91e5-6681ad3d29dc",
+        "cwd": "/private/tmp/handoff-collector-w9SZQM/workspace"
+      }
+    }
+  },
+  "reopened": {
+    "status": "idle",
+    "updatedAt": "2026-11-15T10:50:03.472Z",
+    "lastUserMessageAt": null,
+    "persistence": {
+      "provider": "codex",
+      "sessionId": "fbc17c31-58c8-48bb-91e5-6681ad3d29dc",
+      "metadata": {
+        "conversationId": "fbc17c31-58c8-48bb-91e5-6681ad3d29dc",
+        "cwd": "/private/tmp/handoff-collector-w9SZQM/workspace"
+      }
+    }
+  },
+  "epochUnchanged": true,
+  "rowsUnchanged": true,
+  "contextUnchanged": true,
+  "counts": [
+    2,
+    2
+  ],
+  "providerTurns": 0,
+  "agents": 1,
+  "regressions": {
+    "closedBeforeRead": true,
+    "collectedAfterRead": true,
+    "collectedBeforeRevalidation": true,
+    "manualClose": true,
+    "resumeHookMutationCaught": true,
+    "resumeHookFailureRejected": true,
+    "providerTurns": 0,
+    "destinationAgents": 0,
+    "opens": 8
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "id": "paseo-host-handoff",
+  "name": "Host Handoff",
+  "description": "Review and queue SSH host handoffs with verified Fork Chat context on supported Paseo releases.",
+  "requirements": {"paseo": ">=0.15.2 <0.16.0"},
+  "build": [["npm", "ci"], ["npm", "run", "build"]]
+}

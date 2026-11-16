@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 32 32" role="img" aria-labelledby="title">
+  <title id="title">Host Handoff</title>
+  <rect id="tile" width="32" height="32" rx="7" fill="#14283F"/>
+  <g id="hosts" fill="#F5F8FC">
+    <rect x="4" y="8" width="4" height="16" rx="1.5"/>
+    <rect x="24" y="8" width="4" height="16" rx="1.5"/>
+  </g>
+  <g id="transfer" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path id="send" d="M11 11H21M18 8L21 11L18 14" stroke="#F5F8FC"/>
+    <path id="return" d="M21 21H11M14 18L11 21L14 24" stroke="#73E6C4"/>
+  </g>
+</svg>
